@@ -53,14 +53,13 @@ public class ApiUserController {
 //    @ApiImplicitParams(value = {@ApiImplicitParam(name = "id",value = "用户id",required = true,paramType = "整数",dataType = "整数"),
 //            @ApiImplicitParam(name = "name",value = "用户姓名",required = true,dataType = "字符串",paramType = "新增")})
     @PutMapping("updateUser")
-    public String updateUser(@Validated User user, GlobalExceptionHandler globalExceptionHandler/*, BindingResult bindingResult*/) throws MethodArgumentNotValidException {
-
-        /*if (bindingResult.hasErrors()){
+    public String updateUser(@Validated User user, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()){
             return bindingResult.getFieldError().getDefaultMessage();
         }else{
             return "success";
-        }*/
-        return "success";
+        }
+//        return "success";
     }
 
 }
