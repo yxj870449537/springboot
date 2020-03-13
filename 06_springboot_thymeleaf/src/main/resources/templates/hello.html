@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+    <link rel="stylesheet" th:href="@{/layui/css/layui.css}"  media="all">
+</head>
+<body>
+<img th:src="@{/layui/image/a.jpg}">
+<form th:action="@{/user/addUser}"></form>
+<fieldset class="layui-elem-field site-demo-button" style="margin-top: 30px;">
+    <legend>按钮主题</legend>
+    <div>
+        <button type="button" class="layui-btn layui-btn-primary">原始按钮</button>
+        <button type="button" class="layui-btn">默认按钮</button>
+        <button type="button" class="layui-btn layui-btn-normal">百搭按钮</button>
+        <button type="button" class="layui-btn layui-btn-warm">暖色按钮</button>
+        <button type="button" class="layui-btn layui-btn-danger">警告按钮</button>
+        <button type="button" class="layui-btn layui-btn-disabled">禁用按钮</button>
+    </div>
+</fieldset>
+</body>
+</html>

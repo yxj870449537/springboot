@@ -1,0 +1,7 @@
+#thymeleaf前后缀的配置 默认前缀为classpath:/templates/ 后缀为.html
+#templates内的文件只能由Controller跳转
+spring:
+  thymeleaf:
+    cache: false #网页禁用缓存，避免修改页面不发生改变
+#    prefix: /WEB-INF/view/ #配置前置
+#    suffix: .htm

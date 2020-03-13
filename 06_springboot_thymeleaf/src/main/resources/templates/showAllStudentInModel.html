@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>showAllStudentModel</title>
+    <link rel="stylesheet" th:href="@{/layui/css/layui.css}" media="all">
+</head>
+<body>
+<h1 align="center" th:text="#{sxt.welcome('张大明','哈哈哈')}"></h1>
+<div style="text-align: right;">
+    <span th:text="${username}"></span>
+</div>
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+    <legend>学生信息</legend>
+</fieldset>
+<table width="100%" border="1">
+    <tr>
+        <th>学生编号</th>
+        <th>学生姓名</th>
+        <th>学生性别</th>
+        <th>学生地址</th>
+        <th>学生年龄</th>
+        <th>学生电话</th>
+        <th>学生生日</th>
+    </tr>
+    <tr th:each="student:${list}">
+        <td align="center" th:text="${student.id}">学生编号</td>
+        <td align="center" th:text="${student.name}">学生姓名</td>
+        <td align="center" th:text="${student.sex}">学生性别</td>
+        <!--<td align="center" th:text="${student.sex==1?'男':'女'}">学生性别</td>-->
+        <td align="center" th:text="${student.address}">学生地址</td>
+        <td align="center" th:text="${student.age}">学生年龄</td>
+        <td align="center" th:text="${student.phone}">学生电话</td>
+        <td align="center" th:text="${#dates.format(student.birth,'yyyy-MM-dd HH:mm:ss')}">学生生日</td>
+    </tr>
+</table>
+</body>
+<script type="text/javascript">
+    var username= '[[${username}]]';
+    var userage= [[${userage}]];
+    alert(username);
+    alert(userage);
+</script>
+</html>

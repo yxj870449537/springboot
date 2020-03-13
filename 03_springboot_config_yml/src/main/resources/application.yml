@@ -1,0 +1,28 @@
+user:
+  id: 1
+  name: xiaoming
+  #  age: 18
+  age: ${random.int}
+  birth: 2020/1/22
+  hobby:
+    - DNF
+    - CS
+    - WZRY
+  lists:
+    - DNF
+    - CS
+    - WZRY
+  sets:
+    - DNF
+    - CF
+    - LOL
+    - ${aaa.bbb}
+  maps:
+    key1: value1
+    key2: value2
+aaa:
+  bbb: WOW
+  ccc: DNFL
+student:
+  studen-id: 12
+  student-name: zhangsan

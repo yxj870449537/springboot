@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+model:<span th:text="${name}"></span><br>
+reqeust:<span th:text="${#httpServletRequest.getAttribute('name')}"></span><br>
+
+session:<span th:text="${#httpSession.getAttribute('name')}"></span><br>
+
+session:<span th:text="${#session.getAttribute('name')}"></span><br>
+
+session:<span th:text="${session.name }"></span><br>
+
+servletContext:<span th:text="${#servletContext.getAttribute('name') }"></span><br>
+
+
+我的国家:<span th:text="${#locale.displayCountry}"></span>-<span th:text="${#locale.country}"></span><br>
+我的母语:<span th:text="${#locale.displayLanguage}"></span>-<span th:text="${#locale.language}"></span><br>
+
+
+</body>
+</html>

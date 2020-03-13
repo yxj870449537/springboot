@@ -1,0 +1,18 @@
+#数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/study?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
+    username: root
+    password: 123456
+    type: org.springframework.jdbc.datasource.DriverManagerDataSource
+
+#配置MybatisPlus
+mybatis-plus:
+  mapper-locations:
+    classpath: mapper/*Dao.xml
+  global-config:
+    db-config:
+      id-type: auto
+    banner: true
+

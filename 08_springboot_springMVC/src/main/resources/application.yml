@@ -1,0 +1,7 @@
+##消息转化之日期转化配置
+#spring:
+#  mvc:
+#    date-format: yyyy-MM-dd #只在项目里面使用Date类型的都会转成yyyy-MM-dd
+#web:
+#  applistener-enable: true
+
