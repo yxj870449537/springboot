@@ -1,6 +1,6 @@
-package com.sxt.Component;
+package com.sxt.component;
 
-import com.sxt.Entity.Person;
+import com.sxt.entity.Person;
 import org.springframework.stereotype.Component;
 
 @Component

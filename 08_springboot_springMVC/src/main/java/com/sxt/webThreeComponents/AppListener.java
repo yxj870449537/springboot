@@ -1,4 +1,4 @@
-package com.sxt.WebThreeComponents;
+package com.sxt.webThreeComponents;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;

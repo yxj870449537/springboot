@@ -1,4 +1,4 @@
-package com.sxt.Entity;
+package com.sxt.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

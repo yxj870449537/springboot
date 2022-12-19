@@ -1,6 +1,6 @@
 package com.sxt.config;
 
-import com.sxt.Entity.Student;
+import com.sxt.entity.Student;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

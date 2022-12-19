@@ -1,8 +1,8 @@
 package com.sxt.config;
 
-import com.sxt.WebThreeComponents.AppFilter;
-import com.sxt.WebThreeComponents.AppListener;
-import com.sxt.WebThreeComponents.UserServlet;
+import com.sxt.webThreeComponents.AppFilter;
+import com.sxt.webThreeComponents.AppListener;
+import com.sxt.webThreeComponents.UserServlet;
 import lombok.Data;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

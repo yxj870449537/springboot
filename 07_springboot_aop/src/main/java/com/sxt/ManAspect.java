@@ -1,6 +1,5 @@
 package com.sxt;
 
-import com.sxt.Entity.Man;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.annotation.Aspect;

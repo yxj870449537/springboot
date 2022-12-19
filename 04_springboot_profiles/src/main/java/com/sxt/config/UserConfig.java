@@ -1,4 +1,4 @@
-package com.sxt.Config;
+package com.sxt.config;
 
 import com.sxt.domain.User;
 import org.springframework.context.annotation.Bean;

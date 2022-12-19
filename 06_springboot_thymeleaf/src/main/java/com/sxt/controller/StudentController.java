@@ -1,8 +1,7 @@
-package com.sxt.Controller;
+package com.sxt.controller;
 
-import com.sxt.Entity.Student;
+import com.sxt.entity.Student;
 
-import org.omg.CORBA.StringHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import javax.websocket.Session;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

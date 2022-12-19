@@ -1,7 +1,7 @@
-package com.sxt.Configuration;
+package com.sxt.configuration;
 
-import com.sxt.Component.Teacher;
-import com.sxt.Entity.Person;
+import com.sxt.component.Teacher;
+import com.sxt.entity.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

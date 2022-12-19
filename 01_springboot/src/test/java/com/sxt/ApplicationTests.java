@@ -1,8 +1,8 @@
 package com.sxt;
 
 
-import com.sxt.Entity.Student;
-import com.sxt.Entity.User;
+import com.sxt.entity.Student;
+import com.sxt.entity.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
